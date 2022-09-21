@@ -1,0 +1,95 @@
+.products{
+    padding-top: 4%;
+    background-image: url(all.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(75, 73, 73);
+}
+.products ul li{
+    font-size: 20px;
+    list-style: none;
+    flex: 0 0 25%;
+    background-color: rgb(41, 1, 21);
+    margin: 4px;
+    padding: 2px 15px;
+    color: white;
+    /* border-radius: 10px; */
+    text-align: center;
+
+}
+.products ul{
+    margin: auto;
+    flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 20vh;
+  width: 70vw;
+}
+
+
+.fruits{
+    /* padding-top: 4%; */
+    background-image: url(fruit.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(72, 80, 3);
+    margin: 2%;
+}
+.fruits ul li{
+    font-size: 20px;
+    list-style: none;
+    /* flex: 0 0 25%; */
+    background-color: rgb(228, 135, 13);
+    margin: 10px auto;
+    padding: 15px 1px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.fruits ul{
+    margin: auto;
+    /* flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 20vh;*/
+  width: 40vw; 
+}
+
+.name{
+    background-color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.vegetables{
+    /* padding-top: 4%; */
+    background-image: url(vegs.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(47, 158, 84);
+    margin: 2%;
+}
+.vegetables ul li{
+    font-size: 20px;
+    list-style: none;
+    /* flex: 0 0 25%; */
+    background-color: rgb(5, 83, 57);
+    margin: 10px auto;
+    padding: 15px 1px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.vegetables ul{
+    margin: auto;
+    /* flex-direction: column;
+  flex-wrap: wrap;
+  display: flex; */
+  /* height: 20vh; */
+  width: 40vw;
+}
