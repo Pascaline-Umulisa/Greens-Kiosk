@@ -1,12 +1,12 @@
 import React,{useState} from "react";
 import "./login.css"
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route,Routes } from 'react-router-dom';
 import Home from "./Home";
 
 const Login=()=>{
 
     const[email,setEmail]=useState('');
-    console.log(email)
+    // console.log(email)
     const[password,setPassword]=useState('');
     const [errorPassword, setErrorPassword]=useState(false);
     const [errorEmail, setErrorEmail]=useState(false);
@@ -25,11 +25,7 @@ const Login=()=>{
             return
         }
         else{
-            <Router>
-               <Link to="/"><li>Home</li></Link>
-               <Route path="/" exact component = {Home}/>
-   
-            </Router>
+           
            }
     }
     return(
@@ -54,8 +50,9 @@ const Login=()=>{
                     <div>
                     <input type={"checkbox"}/><label>Keep me logged in</label><span className="forget">Forgot password?</span>
                     </div>
-
                     <button>Login</button><br/>
+                    
+                
                     <div className="or"><hr/><span>Or</span><hr/></div>
 
                 </form>
