@@ -4,3 +4,29 @@
 .title{
   text-align: center;
 }
+.links{
+  text-decoration: none;
+
+}
+.nav{
+  width: 20%;
+  height: 50%;
+  margin: 10% 2% 0 2% ;
+  background-color: rgb(187, 216, 216);
+  transition: transform 500ms ease;
+  border: none;
+}
+.nav:hover{
+  transform: scale(1.2);
+}
+nav{
+  /* background-color: black; */
+  width: 36%;
+  height: 5vw;
+  margin: auto;
+}
+.navigation{
+  box-shadow: 1px 1px 10px black;
+  height: 100px;
+  background-color: rgb(70, 53, 68);
+}

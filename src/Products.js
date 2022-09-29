@@ -23,13 +23,19 @@ const Products=()=>{
    if(!loading){
         return <div>Loading ...</div>;
     }
-    return (
+    return ( 
+        <div className='pro'>
+            <h2 className='title'>WELCOME TO GREENS KIOSK</h2>
+             <p className='title'>Various Fruits and Vegetables</p>
+        
         <div className="products">
+             
             <ul >
             {products.map(item =>(
                <li key={item.id}>{item.name}</li> 
             ))}
             </ul>
+        </div>
         </div>
     )
 }

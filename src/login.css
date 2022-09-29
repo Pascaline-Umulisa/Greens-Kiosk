@@ -25,7 +25,7 @@
     float: right;
     margin-right: 10%;
 }
-button{
+.button{
     width: 50%;
     height: 30px;
     font-size: 18px;
@@ -51,4 +51,38 @@ hr{
 }
 img{
     width: 100%;
+}
+.icons{
+    display: flex;
+    margin-left: 30%;
+    padding: 4% 0;
+}
+.facebook{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+    color: #166468;
+}
+.google{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+    color: #166468;
+
+}
+.instagram{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+    color: #166468;
+
 }
